@@ -2,7 +2,7 @@ body {
     background-color: #eeeeee;
     color: #444444;
     font-family: "Source Sans Pro";
-    font-size: 20pt;
+    font-size: 18pt;
     margin-top: 10%;
 }
 
@@ -34,6 +34,17 @@ h4 {
     font-size: 22pt;
     font-weight: bold;
     text-align: center;
+}
+
+h5 {
+    border-bottom: 8px solid #a1dea1;
+    display: inline-block;
+    line-height: 0.85;
+    color: #09214f;
+    font-family: Georgia, "Times New Roman";
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: left;
 }
 
 footer,
@@ -80,6 +91,11 @@ main p {
     text-align: justify;
 }
 
+section p, article p {
+    font-weight: lighter;
+    font-size: 16pt;
+}
+
 hr {
     background-color: #a1dea1;
     border: none;
@@ -115,6 +131,11 @@ figcaption {
     text-align: center;
     font-weight: bold;
     font-size: 14pt;
+}
+
+iframe {
+    height: 225px;
+    width: 400px;
 }
 
 a,
